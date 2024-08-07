@@ -50,7 +50,7 @@ func TestTokenPair_CalculateAmountOut(t *testing.T) {
 	}
 
 	for _, tc := range testCases {
-		t.Run("", func(t *testing.T) {
+		t.Run(tc.testName, func(t *testing.T) {
 			// Prepare TokenPair object (you might use mocks for GetToken method)
 			tp := getTp()
 
