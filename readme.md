@@ -6,7 +6,7 @@
 
 ## Run the project
 
-```./build/amountoutcalc --PoolID=<eth_address> --FromToken=<eth_address> --ToToken=<eth_address> --InputAmount=<string number>```
+```./build/uniswapv2paircalc --PoolID=<eth_address> --FromToken=<eth_address> --ToToken=<eth_address> --InputAmount=<string number>```
 
 ### Available flags
 

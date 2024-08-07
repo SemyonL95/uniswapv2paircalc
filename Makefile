@@ -1,7 +1,7 @@
 .PHONY: test build test-with-e2e
 
 build:
-	go build -o build/amountoutcalc ./cmd/cli/main.go
+	go build -o build/uniswapv2paircalc ./cmd/cli/main.go
 
 test:
 	go test ./...

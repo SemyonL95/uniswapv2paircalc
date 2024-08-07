@@ -1,8 +1,6 @@
 package main
 
 import (
-	"1inch-pair-testtask/internal/adapters/uniswapv2pair"
-	"1inch-pair-testtask/internal/application/swapcalculator"
 	"context"
 	"flag"
 	"fmt"
@@ -11,6 +9,8 @@ import (
 	"log/slog"
 	"math/big"
 	"os"
+	"uniswapv2paircalc/internal/adapters/uniswapv2pair"
+	"uniswapv2paircalc/internal/application/swapcalculator"
 )
 
 const defaultRPCURL = "https://eth.llamarpc.com"

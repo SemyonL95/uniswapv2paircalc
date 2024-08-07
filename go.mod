@@ -1,4 +1,4 @@
-module 1inch-pair-testtask
+module uniswapv2paircalc
 
 go 1.22.2
 

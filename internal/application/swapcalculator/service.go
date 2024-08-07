@@ -1,13 +1,13 @@
 package swapcalculator
 
 import (
-	"1inch-pair-testtask/internal/domain"
-	"1inch-pair-testtask/internal/domain/pair"
 	"context"
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
 	"log/slog"
 	"math/big"
+	"uniswapv2paircalc/internal/domain"
+	"uniswapv2paircalc/internal/domain/pair"
 )
 
 type PairDataProvider interface {

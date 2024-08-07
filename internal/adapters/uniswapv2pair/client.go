@@ -1,13 +1,13 @@
 package uniswapv2pair
 
 import (
-	"1inch-pair-testtask/internal/adapters/uniswapv2pair/pair"
 	"context"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"log/slog"
 	"math/big"
+	"uniswapv2paircalc/internal/adapters/uniswapv2pair/pair"
 )
 
 func NewClient(log *slog.Logger, client *ethclient.Client) *Client {

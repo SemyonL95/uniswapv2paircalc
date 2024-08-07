@@ -1,9 +1,9 @@
 package pair
 
 import (
-	"1inch-pair-testtask/internal/domain"
 	"math/big"
 	"testing"
+	"uniswapv2paircalc/internal/domain"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
