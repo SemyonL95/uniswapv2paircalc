@@ -45,7 +45,7 @@ func (s *Service) GetAmountOut(
 	if inputToken == outputToken {
 		s.log.ErrorContext(ctx, "input and output tokens are the same")
 
-		return nil, fmt.Errorf("input and output tokens are the same: %w", domain.ErrWrongToken)
+		return nil, fmt.Errorf("input and output tokens are the same, err: %w", domain.ErrWrongToken)
 	}
 
 	if err := s.validateAddresses(inputToken, token0, token1); err != nil {
